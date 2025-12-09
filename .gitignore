@@ -1,0 +1,34 @@
+latestenv
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.env.*/
+.venv/
+venv310/
+venv311/
+venv/
+venv*/
+env/
+latestenv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE / OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training artifacts
+runs/
+*.log
